@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #4dd2ff;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.btn-outline {
+  padding: 8px 18px;
+  background: transparent;
+  border: 1px solid #4dd2ff;
+  color: #4dd2ff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background: #4dd2ff;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 12px 26px;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* GLASS CARD */
+.hero-card {
+  width: 260px;
+  padding: 30px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* FEATURES */
+.features {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature-card {
+  width: 260px;
+  padding: 30px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 18px;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+/* CTA */
+.cta {
+  padding: 80px;
+  text-align: center;
+  background: linear-gradient(135deg, #4dd2ff, #007bff);
+  color: #000;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: #ccc;
+}
